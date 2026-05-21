@@ -10,9 +10,11 @@ import javafx.stage.Stage;
 public class Main extends Application {
     @Override
     public void start(Stage primaryStage) {
+        //Creacion de varios botones
         Button button1 = new Button("Botón 1");
         Button button2 = new Button("Botón 2");
         Button button3 = new Button("Botón 3");
+        //posiciones de los botones de forma vertical y horizontal
         HBox hBox = new HBox(button1,button2);
         VBox vBox = new VBox(hBox,button3);
 
